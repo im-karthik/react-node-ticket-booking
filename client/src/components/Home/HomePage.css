@@ -1,0 +1,42 @@
+.container {
+  text-align: left;
+  width: 95%;
+  justify-content: space-evenly;
+  max-width: 75%;
+  display: flex;
+  margin: 0 10%;
+  flex-wrap: wrap;
+}
+.section {
+  padding: 10px 15px;
+  display: inline-flex;
+  flex: 0 0 80%;
+  justify-content: space-between;
+  position: relative;
+}
+.section-value {
+  width: 50%;
+}
+.btn-container {
+  padding-top: 25px;
+}
+.search-button {
+  height: 38px;
+  width: 80px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-button:disabled {
+  cursor: default;
+}
+.head {
+  display: block;
+  margin-bottom: 30px;
+}
+img {
+  width: 100%;
+}
